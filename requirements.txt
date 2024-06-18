@@ -1,3 +1,6 @@
 gpxpy
 requests
 folium
+tqdm
+datetime
+numpy
