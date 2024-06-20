@@ -60,6 +60,7 @@ def parse_gpx(file_path):
             for point in segment.points:
                 coordinates.append((point.latitude, point.longitude))
                 timestamps.append(point.time.strftime('%Y-%m-%dT%H:%M:%SZ'))
+    print(timestamps)
     return coordinates, timestamps
 
 def compute_500m_centroids(coordinates):
